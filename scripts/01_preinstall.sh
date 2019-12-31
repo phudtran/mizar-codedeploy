@@ -13,4 +13,3 @@ sudo apt-get install -y \
     docker.io
 
 sudo pip3 install netaddr docker
-sudo pkill -9 transitd
