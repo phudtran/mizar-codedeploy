@@ -15,7 +15,6 @@ sudo apt-get install -y \
 sudo pip3 install netaddr docker
 sudo systemctl unmask docker.service
 sudo systemctl unmask docker.socket
-sudo systemctl start docker
-sudo systemctl enable docker
+sudo service docker start
 
 sudo pkill -9 transitd
