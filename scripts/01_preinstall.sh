@@ -13,7 +13,4 @@ sudo apt-get install -y \
     docker.io
 
 sudo pip3 install netaddr docker
-sudo systemctl unmask docker.service
-sudo systemctl unmask docker.socket
-
 sudo pkill -9 transitd
