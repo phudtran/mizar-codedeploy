@@ -9,9 +9,9 @@ sudo apt-get install -y \
     python3 \
     python3-pip \
     libcmocka-dev \
-    lcov
+    lcov \
+    docker.io
 
-sudo apt install docker.io
 sudo pip3 install netaddr docker
 sudo systemctl unmask docker.service
 sudo systemctl unmask docker.socket
