@@ -10,14 +10,19 @@ sudo apt-get install -y \
     python3-pip \
     libcmocka-dev \
     lcov \
-    docker.io
+    docker.io \
+    openvswitch-switch
 
 sudo pip3 install netaddr docker
 
-#sudo apt install docker.io
-#sudo pip3 install netaddr docker
-#sudo systemctl unmask docker.service
-#sudo systemctl unmask docker.socket
-#sudo systemctl start docker
-#sudo systemctl enable docker
-#sudo pkill -9 transitd
+
+rm -f /bpffs
+rm -f /trn_xdp
+rm -f /usr/bin/transit*
+rm -f /etc/systemd/system/transit.service
+rm -rf /home/ubuntu/mizar
+
+systemctl unmask docker.service
+systemctl unmask docker.socket
+systemctl start docker
+systemctl enable docker
