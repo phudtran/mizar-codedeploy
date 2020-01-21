@@ -9,4 +9,4 @@ else
   logger "Failure starting transitd"
 fi
 
-make test
+make test -C /home/ubuntu/mizar
