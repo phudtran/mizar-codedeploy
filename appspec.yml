@@ -20,6 +20,3 @@ hooks:
     - location: scripts/04_validate.sh
       timeout: 300
       runas: root
-  RunTests:
-   - location: scripts/05_run_tests.sh
-     timeout: 1800

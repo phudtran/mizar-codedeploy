@@ -8,3 +8,5 @@ then
 else
   logger "Failure starting transitd"
 fi
+
+make test
