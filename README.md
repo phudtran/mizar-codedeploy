@@ -1,5 +1,8 @@
 # Mizar – High Scale and High Performance Cloud Network #
 
+
+![alt text](https://codebuild.us-west-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiQnpNSlVEZitmL28veU04NndDRE9RYVVtdUpnZW5YWkJTU2RqSlZHZHVvaElzS21wOUh5ejlsakJXL3ZxYTdNc3N3UXRHYmVEei9ITVk1YWdUUGlHUXhFPSIsIml2UGFyYW1ldGVyU3BlYyI6Im9sSlg5aTcwYlhKTnI0TmEiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master "Build Status")
+
 Mizar is an open-source project for providing high-performance cloud network to run virtual machines, containers, and other compute workloads. We built Mizar from ground-up on top of [Geneve protocol](https://tools.ietf.org/html/draft-ietf-nvo3-geneve-08) and [XDP](https://prototype-kernel.readthedocs.io/en/latest/networking/XDP/). Mizar's main building block is an XDP program that runs on each host. The program implements virtual functions including overlay switching, routing, virtual endpoints, load-balancing, NAT, etc.
 
 Mizar network has the following advantages:
